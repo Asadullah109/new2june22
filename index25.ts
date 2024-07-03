@@ -134,6 +134,18 @@ const Totalsum1 = sumArray20(array20);
 console.log(`Total sum: ${Totalsum1} array20`);
 console.log(array20);
 
+function sumArray21(numbers: number[]): number {
+    let sum = 0;
+    for (let i = 0; i <numbers.length; i++) {
+        sum += numbers[i];
+    }
+    return sum;
+}
+
+const array21 = [52, 53, 54, 55];
+const Totalsum21 = sumArray21(array21);
+console.log(array21);
+
 
 
 
